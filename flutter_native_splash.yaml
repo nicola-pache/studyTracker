@@ -1,0 +1,17 @@
+# settings for the splash screen as per package documentation;
+# after making changes to the settings, run 'flutter pub run flutter_native_splash:create'
+# in the terminal, to remove the splash screen run 'flutter pub run flutter_native_splash:remove'
+flutter_native_splash:
+
+  # specifies the default background color; will be used in light mode
+  color: "#ffffff"
+
+  # the image to be shown on the splash screen
+  image: assets/logo.png
+
+  # specifies the background color when the dark mode is activated
+  color_dark: "#424242"
+  image_dark: assets/logo.png
+
+  # disables the splash screen on web platforms
+  web: false
